@@ -1,0 +1,89 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Karla";
+}
+
+body{
+    background: #EEE;
+    overflow: hidden;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav > div{
+    display: flex;
+    gap: 52px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 10px;
+    gap: 52px;
+    align-items: center;
+}
+
+button{
+    width: 140px;
+    height: 60px;
+    border-radius: 30px;
+    background: #11100D;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    margin-left: 180px;
+    position: absolute;
+    top: 500px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+.logoprincipal{
+    padding-left: 70px;
+}
+
+.compras{
+    padding-right: 84px;
+}
+
+.error{
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.32px;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    width: 500px;
+}
+
+.cafe{
+    width: 650px;
+    height: 650px;
+    position: absolute;
+    left: 290px;
+}
+
+p{
+    font-weight: 300;
+}
